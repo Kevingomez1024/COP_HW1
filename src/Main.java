@@ -4,10 +4,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
-        File dataFile = new File("Users/user/Documents/data.txt");
+        File dataFile = new File("/Users/user/IdeaProjects/COP_HW1/src/data.txt");
         Scanner scan = new Scanner(dataFile);
+        System.out.println(scan.nextLine());
 
-        //beau bailey flacuchento DM :D
+
 
         DynamicQueue[] queues = new DynamicQueue[4];
 
