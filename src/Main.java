@@ -11,11 +11,9 @@ public class Main {
 
 
         while(scan.hasNextLine()) { //loop to read the entire file
-            String[] line = new String[2]; //array to hold the key and index provided in each line
-            line = scan.nextLine().split(" "); //obtaining the key and index by splitting the line wherever there is a space
-            char key = line[0].charAt(0); //setting the key equal
-            int index = Integer.parseInt(line[1]); //setting the index
-            System.out.println(key + " " + index);
+            String[] line = scan.nextLine().split(" "); //array to hold the key and index provided in each line
+            char key = line[0].charAt(0);
+            int index = Integer.parseInt(line[1]);
 
         }
 
