@@ -10,6 +10,8 @@ class DynamicQueue{
         return (front == null);
     }
 
+    public void addQueue(char key, int index) {
 
+    }
 
 }
