@@ -10,18 +10,17 @@ public class Main {
         //beau bailey flacuchento DM :D
 
         DynamicQueue[] queues = new DynamicQueue[4];
+        queues[0] = new DynamicQueue(4);
+        queues[1] = new DynamicQueue(4);
+        queues[2] = new DynamicQueue(4);
+        queues[3] = new DynamicQueue(4);
 
 
 
 
 
-        DynamicQueue queue = new DynamicQueue();
-        queue.insertIntoQueue("a");
-        queue.insertIntoQueue("b");
-        queue.insertIntoQueue("c");
-        queue.insertIntoQueue("b");
 
-        System.out.println(queue.printQueue());
+
 
 
     }
